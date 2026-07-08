@@ -1,0 +1,47 @@
+{
+  "name": "@ai-native-solutions/bloom-weighted-sididy-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for bloom-weighted si-didy · 7-prime spine response scoring, user-bloom overlay, F(S⃗) delta, JSON/Markdown export.",
+  "main": "./src/index.js",
+  "bin": {
+    "bloom-weighted-sididy-mcp": "./src/index.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": ["src/", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/bloom-weighted-sididy-sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "bloom-weighted-sididy",
+    "sididy",
+    "7-prime-spine",
+    "sovereign",
+    "estate",
+    "ai-native-solutions",
+    "model-context-protocol"
+  ],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/bloom-weighted-sididy-mcp.git"
+  },
+  "homepage": "https://github.com/sjgant80-hub/bloom-weighted-sididy-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/sjgant80-hub/bloom-weighted-sididy-mcp/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
